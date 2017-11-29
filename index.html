@@ -1,42 +1,63 @@
-<!-- Index HTML file -->
+<!-- CSS Stylesheets with Relative Paths -->
 
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-  <title> Basic Portfolio </title>
-  <!-- HTML to the Style Sheet -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <title>Homework 1 Porfolio</title>
+    <!-- HTML Reset Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- HTML to the Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 </head>
 
 <body>
+  <header>
+      <aside>
+          <h1>Joe Rigby</h1>
+      </aside>
 
-    <div id="Bio-Name">
-         &lt;Name of Person&gt;
-         position: fixed
+      <nav>
+          <a href="/html/">About</a> |
+          <a href="/css/">Portfolio</a> |
+          <a href="/js/">Contact</a>
+      </nav>
+  </header>
+
+  <section class="container1">
+    
+    
+    <div id="container1-name">
+        <h2>About Me</h2>
+    </div>  
+    
+    <div id="container1-content">  
+        <img src="assets/images/PlaceHolder.png" alt="Your Name" id="container1-image">
+
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
     </div>
+  </section>
+  
+  <section class="container2">
 
+      <div id="container2-contact-header">
+          <h3>Connect with Me</h3>
+      </div>
 
-  <div class="container">
+      <div id=container2-contact-info>
+          <img src="assets/images/Git.png" width="60" height="60">
+          <img src="assets/images/LinkedIn.jpg" width="60" height="60">
+          <img src="assets/images/StackOverFlow.png" width="60" height="60">
+      </div>
+  </section>
+  
+  
 
-    <section id=main-bio>
-
-      <h2>Joe Rigby</h2>
-
-      <img src="https://placehold.it/200x200" alt="Your Name" id="bio-image">
-
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section id=contact-info>
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">joe.rigby@twc.com</a></li>
-        <li><strong>Github:</strong> <a href="#">JoeRigby</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+  <footer class="page-footer">
+      <div id="footer-text">
+            &copy Copyright 2017 Joe Rigby
+      </div>      
+  </footer>
 
 </body>
 
